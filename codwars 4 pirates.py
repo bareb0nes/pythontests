@@ -3,7 +3,7 @@ def cannons_ready(gunners):
     for yell in gunners.values():
         if yell != "aye":
             problem += 1
-    if problem == 1:
+    if problem >= 1:
         return "Shiver me timbers!"
     else:
         return "Fire!"
